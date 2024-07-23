@@ -12,7 +12,7 @@ const Task = (props) => {
     <div className="task-card">
       <p>{task}</p>
       <button className="task-button done-button" onClick={buttonClick}>
-        Do
+        Done
       </button>
       <button className="task-button delete-button">Delete</button>
     </div>
